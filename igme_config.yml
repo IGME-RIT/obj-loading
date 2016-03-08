@@ -1,9 +1,9 @@
-title: Normal Mapping
+title: Obj Loading
 author:
   name: IGME-RIT
   email:
   github: igme-rit
-description: This program demonstrates the implementation of normal maps to produce finer lighting details.
+description: This program demonstrates loading of obj model files to render them in a scene.
 language: C++
 image:
   icon: https://cloud.githubusercontent.com/assets/10502938/13506660/28be0300-e14d-11e5-90e3-b194f14e52bd.PNG
@@ -12,4 +12,4 @@ tags:
   - C++
   - Graphics
 extra_resources:
-  - "https://www.packtpub.com/game-development/opengl-4-shading-language-cookbook-second-edition"
+  - "https://www.opengl.org/wiki/Uniform_Buffer_Object"
