@@ -1,6 +1,6 @@
-# Normal Mapping Tutorial
+# Obj Loading Tutorial
 
-This program demonstrates the implementation of normal maps to produce finer lighting details.
+This program demonstrates loading of obj model files to render them in a scene
 
 # About
 
