@@ -14,4 +14,4 @@ tags:
 extra_resources:
   - "https://www.opengl.org/wiki/Uniform_Buffer_Object"
 connections:
-  - "multi-object-multi-buffer-tutorial"
+  - "graphics-glfw-multiObjectMultiBuffer-tutorial"
