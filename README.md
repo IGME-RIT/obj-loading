@@ -21,12 +21,13 @@ There are 5 static component classes that make up the base functionality for thi
 
 RenderObject
   - Tracks the instance of an object that can be drawn to the screen. Contains data for transforms, a mesh, a shader, drawing mode (eg triangles, lines), and a layer. The layer is a value that can be used to mask certain objects from a draw call. The object has a layer which is some power of 2 and then there is a mask for the draw call which is a 32 bit number. A bit-wise & between these numbers decides whether or not the object in question is drawn.
+
 SHADERS
   - Now use uniform buffer objects for receiving uniform data.
 
-vShader.glsl
+- vShader.glsl
   - Through shader, nothing fancy
-fShader.glsl
+- fShader.glsl
   - Applies a phong lighting model based on the data sent from the lighting manager, functions the same as the phong shader from the geometric lighting improved example.
 
 # Setup
