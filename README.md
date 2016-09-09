@@ -8,15 +8,15 @@ This example rebuilds a lot of the code the has been established through the tea
 
 There are 5 static component classes that make up the base functionality for this example:
 
-1) RenderManager
+1. RenderManager
   - This class maintains the display list for the scene being rendered and thus handles the processes of updating and drawing all of the RenderObjects that have been instantiated in the scene.
-2) CameraManager
+2. CameraManager
   - This class maintains data relating to the view and projection matrices used in the rendering pipeline. It also handles updating this data based on user input.
-3) InputManager
+3. InputManager
   - This class maintains data for the current state of user input for the mouse and keyboard.
-4) LightingManager
+4. LightingManager
   - This class maintains data for an array of eight lights, each posessing a trasform, color and power, handles the updating thereof and maintains gpu-side buffers reflecting this data for use in the shaders.
-5) ResourceManager
+5. ResourceManager
   - This class maintains all the data from external sources necessessary to run the program. In this instance, this includes obj loading, parsing, and storage, vao, vbo, and ebo generation and storage, shader loading, compiling and linking, and uniform buffer object generation, binding and storage.
 
 RenderObject
