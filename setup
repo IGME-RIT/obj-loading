@@ -1,6 +1,0 @@
-#!/bin/sh
-rm -rf build/
-mkdir -p build
-chmod a+x build/
-cd build
-cmake ../
